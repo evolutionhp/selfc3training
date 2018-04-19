@@ -1,8 +1,0 @@
-{
- "id" : "AverageTemperature_SmartBulb",
- "name" : "AverageTemperature",
- "description" : "AverageTemperature over time of the SmartBulb",
- "srcType":"SmartBulb",
- "path": "bulbMeasurements",
- "expression": "avg(avg(normalized.data.temperature))"
- }
